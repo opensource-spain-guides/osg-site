@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://opensource-spain-guildes.github.io/</loc>
+         <loc>https://opensource-spain-guides.github.io/</loc>
          <lastmod>2025-01-09</lastmod>
     </url>
     <url>
-         <loc>https://opensource-spain-guildes.github.io/guide-digital-certificate/</loc>
+         <loc>https://opensource-spain-guides.github.io/guides/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://opensource-spain-guides.github.io/guides/get-appointment-fingerprinting/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://opensource-spain-guides.github.io/guides/guide-digital-certificate/</loc>
+         <lastmod>2025-01-09</lastmod>
+    </url>
+    <url>
+         <loc>https://opensource-spain-guides.github.io/links/</loc>
          <lastmod>2025-01-09</lastmod>
     </url>
 </urlset>
