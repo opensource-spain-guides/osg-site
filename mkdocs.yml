@@ -53,6 +53,8 @@ nav:
   - Guides:
     - guides/index.md
     - guides/guide-digital-certificate.md
+  - Useful links:
+    - links/index.md
 
 extra:
   analytics:
