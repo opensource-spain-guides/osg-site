@@ -3,13 +3,13 @@ name: Build and Deploy MkDocs
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
     inputs:
       branch:
         description: 'Branch to deploy'
         required: true
-        default: 'main'
+        default: 'master'
 
 jobs:
   build:
