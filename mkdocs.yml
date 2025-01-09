@@ -62,3 +62,9 @@ extra:
   analytics:
     provider: custom
     property: foobar
+
+markdown_extensions:
+  - attr_list
+
+plugins:
+  - glightbox
