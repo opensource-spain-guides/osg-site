@@ -17,6 +17,7 @@ theme:
     - content.action.view
     - content.action.edit
     - navigation.expand
+    - navigation.indexes
     - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
