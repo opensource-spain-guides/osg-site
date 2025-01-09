@@ -1,12 +1,12 @@
 # Project information
-site_name: Opensource Spain Guildes
-site_url: https://opensource-spain-guildes.github.io/
+site_name: Opensource Spain Guides
+site_url: https://opensource-spain-guides.github.io/
 site_description: >-
   An open-source collection of guides and resources for living and 
   working in Spain: visas, taxes, and daily life tips.
 
 # Repository
-repo_name: opensource-spain-guildes/osg-site
+repo_name: opensource-spain-guides/osg-site
 repo_url: https://github.com/opensource-spain-guides/osg-site
 
 theme:
