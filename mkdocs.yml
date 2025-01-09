@@ -12,6 +12,7 @@ edit_uri: edit/master/docs/
 
 theme:
   name: material
+  language: ru
   custom_dir: overrides
   features:
     - content.action.view
