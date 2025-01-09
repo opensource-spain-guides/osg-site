@@ -1,0 +1,30 @@
+name: Build and Deploy MkDocs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Docker
+      uses: docker/setup-buildx-action@v1
+
+    - name: Build MkDocs Docker image
+      run: docker build -t osg-site .
+
+    - name: Run MkDocs build
+      run: |
+        docker run --rm -v ${PWD}:/app osg-site mkdocs build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
