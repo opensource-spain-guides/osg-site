@@ -55,6 +55,7 @@ nav:
   - Guides:
     - guides/index.md
     - guides/guide-digital-certificate.md
+    - guides/get-appointment-fingerprinting.md
   - Useful links:
     - links/index.md
 
