@@ -12,6 +12,12 @@ repo_url: https://github.com/opensource-spain-guides/osg-site
 theme:
   name: material
   custom_dir: overrides
+  features:
+    - navigation.expand
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
