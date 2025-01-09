@@ -8,11 +8,14 @@ site_description: >-
 # Repository
 repo_name: opensource-spain-guides/osg-site
 repo_url: https://github.com/opensource-spain-guides/osg-site
+edit_uri: edit/master/docs/
 
 theme:
   name: material
   custom_dir: overrides
   features:
+    - content.action.view
+    - content.action.edit
     - navigation.expand
     - navigation.path
     - navigation.tabs
@@ -42,6 +45,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
 
 nav:
   - Home: index.md
