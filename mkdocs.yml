@@ -1,0 +1,42 @@
+# Project information
+site_name: Opensource Spain Guildes
+site_url: https://opensource-spain-guildes.github.io/
+site_description: >-
+  An open-source collection of guides and resources for living and 
+  working in Spain: visas, taxes, and daily life tips.
+
+# Repository
+repo_name: opensource-spain-guildes/osg-site
+repo_url: https://github.com/opensource-spain-guides/osg-site
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Digital Certificate: guide-digital-certificate.md
