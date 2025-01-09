@@ -11,6 +11,7 @@ repo_url: https://github.com/opensource-spain-guides/osg-site
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -40,3 +41,8 @@ nav:
   - Home: index.md
   - Guides:
       - Digital Certificate: guide-digital-certificate.md
+
+extra:
+  analytics:
+    provider: custom
+    property: foobar
